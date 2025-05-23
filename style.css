@@ -1,0 +1,51 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe6f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  h1 {
+    color: #d63384;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  #buttons {
+    display: flex;
+    gap: 20px;
+    position: relative;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  #yesBtn {
+    background-color: #ff69b4;
+    color: white;
+  }
+  
+  #noBtn {
+    background-color: #ccc;
+    color: #333;
+    position: absolute;
+  }
+  
+  img {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
